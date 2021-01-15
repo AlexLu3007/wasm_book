@@ -1,0 +1,45 @@
+设置用户
+git config --global user.name "AlexLu3007"
+git config --global user.email "983139929@qq.com"
+查看用户
+git config  user.name "AlexLu3007"
+git config  user.email "983139929@qq.com"
+使文件夹可以使用git管理进行初始化
+git init
+
+添加
+git add .
+
+提交
+git commit -m "first commit"
+
+创建分支
+git branch -M main
+
+链接远程库
+git remote add origin https://github.com/AlexLu3007/wasm_book.git
+
+提交代码
+git push -u origin main
+
+
+create a new repository on the command line
+创建新仓库
+echo "# wasm_book" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AlexLu3007/wasm_book.git
+git push -u origin main
+              
+push an existing repository from the command line
+提取现存仓库
+git remote add origin https://github.com/AlexLu3007/wasm_book.git
+git branch -M main
+git push -u origin main
+
+ import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
